@@ -1,7 +1,11 @@
 {
     "exploreHeader": "Eksploruj",
-    "welcomeDescription": "To jest aplikacja demo multijęzykowa wykorzystująca React Context API",
+    "welcomeDescription": "To jest demo aplikacji która wspiera wielojęzyczność poprzez React Context API",
     "clickMe": "Naciśnij mnie",
-    "aboutMe": "Więcej informacji o autorze",
-    "buttonClicked": "Nacisnąłeś przycisk!"
+    "aboutMe": "Więcej o autorze...",
+    "buttonClicked": "Nacisnąłeś przycisk!",
+    "enterText": "Wpisz swoją odpowiedź",
+    "option1": "Opcja 1",
+    "option2": "Opcja 2",
+    "option3": "Opcja 3"
   }

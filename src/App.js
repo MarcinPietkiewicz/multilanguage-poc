@@ -1,13 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import { LanguageProvider } from "./containers/Language";
+import LanguageSelector from "./components/LanguageSelector";
+import Explore from "./components/Explore";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      Hello world
-      </header>
-    </div>
+    <LanguageProvider>
+      <div className="App">
+        <header className="App-header">
+          <LanguageSelector />
+        <Explore />
+        </header>
+
+      </div>
+    </LanguageProvider>
   );
 }
 
