@@ -8,6 +8,7 @@ import "./App.css";
 import { LanguageProvider } from "./containers/Language";
 import LanguageSelector from "./components/LanguageSelector";
 import Explore from "./components/Explore";
+import { Text } from "./containers/Language";
 
 function App() {
   return (
@@ -31,18 +32,21 @@ function App() {
 }
 
 function Layout() {
+
+
+
   return (
     <div>
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/"><Text tid="Home" /></Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about"><Text tid="About" /></Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact"><Text tid="Contact" /></Link>
           </li>
         </ul>
       </nav>
