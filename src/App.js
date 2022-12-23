@@ -16,7 +16,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <Routes>
-            <Route path="/"  element={<Layout />}>
+            <Route path="/" element={<Layout />}>
               <Route index element={<Home />} />
               <Route path="about" element={<About />} />
               <Route path="contact" element={<Contact />} />
@@ -32,21 +32,24 @@ function App() {
 }
 
 function Layout() {
-
-
-
   return (
     <div>
       <nav>
         <ul>
           <li>
-            <Link to="/"><Text tid="Home" /></Link>
+            <Link to="/">
+              <Text tid="Home" />
+            </Link>
           </li>
           <li>
-            <Link to="/about"><Text tid="About" /></Link>
+            <Link to="/about">
+              <Text tid="About" />
+            </Link>
           </li>
           <li>
-            <Link to="/contact"><Text tid="Contact" /></Link>
+            <Link to="/contact">
+              <Text tid="Contact" />
+            </Link>
           </li>
         </ul>
       </nav>
